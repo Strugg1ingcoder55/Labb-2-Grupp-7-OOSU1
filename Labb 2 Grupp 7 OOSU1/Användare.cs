@@ -24,7 +24,9 @@ namespace Labb_2_Grupp_7_OOSU1
         public string Email;
 
         public int push;
-        public string testing; 
+        public string testing;
+
+        public string testIgen;
 
 
     }
