@@ -23,6 +23,8 @@ namespace Labb_2_Grupp_7_OOSU1
         public int TelefonNr;
         public string Email;
 
+        public string testing; 
+
 
     }
 }
