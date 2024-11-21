@@ -16,17 +16,17 @@ namespace Labb_2_Grupp_7_OOSU1
         public int TelefonNr;
         public string Betalningsmetod;
         public string Hyreshistorik;
+
+        public Fordon Fordon;
+        public Hyrprocess Hyrprocess;
+        public Stationer Stationer;
     }
+
     public class Företag
     {
         public string FöretagsID;
         public int TelefonNr;
         public string Email;
-
-        public int push;
-        public string testing;
-
-        public string testIgen;
 
 
     }

@@ -10,9 +10,13 @@ namespace Labb_2_Grupp_7_OOSU1
     {
         public string Plats;
         public string Storlek;
+     
         public int AntalFordon;
         public string Fordonsläge;
         public int AnvändbaraFordon;
+
+        public List<Fordon> Fordon;
+        public Användare Användare;
         //En funktion som ser skillnaden mellan AntalFordon och AnvändbaraFordon för att se vilka fordon
         //som är otillgängliga
     }

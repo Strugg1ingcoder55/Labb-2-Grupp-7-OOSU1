@@ -14,6 +14,9 @@ namespace Labb_2_Grupp_7_OOSU1
         public double Hyrtid;
         public int Hyrkostnad;
 
+        public Användare Användare;
+        public List<Fordon> Fordon;
+
         //Göra en funktion för att öka kostnaden per minut, gör det i GUI 
     }
 }

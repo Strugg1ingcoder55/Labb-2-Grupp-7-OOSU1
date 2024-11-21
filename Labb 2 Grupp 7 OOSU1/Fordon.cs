@@ -13,7 +13,8 @@ namespace Labb_2_Grupp_7_OOSU1
         public string BatteriStatus;
         public string Fordonsläge;
 
-      
+        public Användare Användare;
+        public Stationer Stationer;
         
     }
 
