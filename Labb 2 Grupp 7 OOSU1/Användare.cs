@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Labb_2_Grupp_7_OOSU1
 {
     public class Användare
@@ -15,12 +16,14 @@ namespace Labb_2_Grupp_7_OOSU1
         public string Email;
         public int TelefonNr;
         public string Betalningsmetod;
-        public string Hyreshistorik;
+        public int Hyreshistorik;
+        public bool IsAdmin;
 
         public Fordon Fordon;
-        public Hyrprocess Hyrprocess;
-        public Stationer Stationer;
+        public Hyrning Hyrning;
+       
     }
+
 
     public class Företag
     {

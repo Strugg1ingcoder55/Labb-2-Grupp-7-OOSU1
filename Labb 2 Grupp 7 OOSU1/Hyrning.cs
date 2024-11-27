@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace Labb_2_Grupp_7_OOSU1
 {
    
-    public class Hyrprocess
+    public class Hyrning
     {
-        public string AnvändarID;
+        
         public bool Fordonstillgänglighet;
         public double Hyrtid;
         public int Hyrkostnad;

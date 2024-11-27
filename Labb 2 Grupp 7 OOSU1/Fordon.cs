@@ -8,10 +8,10 @@ namespace Labb_2_Grupp_7_OOSU1
 {
     public class Fordon
     {
-        public string FordonsID;
+        public int FordonsID;
         public string FordonsTyp;
         public string BatteriStatus;
-        public string Fordonsläge;
+        public bool FordonsStatus;
 
         public Användare Användare;
         public Stationer Stationer;

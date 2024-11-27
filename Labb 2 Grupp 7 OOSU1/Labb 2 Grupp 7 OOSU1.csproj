@@ -10,6 +10,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Hyrprocess.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="NewFile1.txt" />
   </ItemGroup>
 
